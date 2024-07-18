@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sandeep Kumar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contact-container">
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
+
+        <section class="contact-information">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Email:</strong> contact@sandeepkumar.com</p>
+            <p><strong>Office Address:</strong> 123 Business Street, City, Country</p>
+        </section>
+
+        <section class="map">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354347394317!2d144.9560543153183!3d-37.817209979751675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f0c9bf%3A0x5045675218ce7e33!2s123+Business+Street%2C+City%2C+Country!5e0!3m2!1sen!2s!4v1492002106244" width="600" height="450" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="social-media">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sandeepkumar" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com/sandeepkumar" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/in/sandeepkumar" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/sandeepkumar" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
